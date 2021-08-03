@@ -3,7 +3,7 @@
     {
       "EventSource": "aws:sns",
       "EventVersion": "1.0",
-      "EventSubscriptionArn": "arn:aws:sns:us-west-2:479335881964:CloudWatch-to-Slack:112270ec-10a1-4a8a-be63-48cbee55e448",
+      "EventSubscriptionArn": "arn:aws:sns:us-west-2:479335881964:CloudWatch-to-Slack:112270ec-xxxx-xxxx-be63-48cbee55e448",
       "Sns": {
         "Type": "Notification",
         "MessageId": "69b43058-bad7-503b-b0b2-6818bd5a2252",
