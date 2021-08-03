@@ -1,0 +1,21 @@
+{
+  "Records": [
+    {
+      "EventSource": "aws:sns",
+      "EventVersion": "1.0",
+      "EventSubscriptionArn": "arn:aws:sns:us-west-2:479335881964:CloudWatch-to-Slack:112270ec-10a1-4a8a-be63-48cbee55e448",
+      "Sns": {
+        "Type": "Notification",
+        "MessageId": "b2312948-6397-52f1-bb71-71e1e6bd333a",
+        "TopicArn": "arn:aws:sns:us-west-2:479335881964:CloudWatch-to-Slack",
+        "Subject": "ALARM: \"[Critical] helmet(Grafana) CPU usage high\" in US West (Oregon)",
+        "Message": "{\"AlarmName\":\"[Critical] helmet(Grafana) CPU usage high\",\"AlarmDescription\":\"{\\n \\\"alert_source\\\":\\\"cloudwatch\\\",\\n    \\\"element\\\":\\\"cpu usage\\\",\\n    \\\"element_type\\\":\\\"Grafana\\\",\\n    \\\"element_subtype\\\":\\\"monitoring\\\",\\n    \\\"host\\\":\\\"helmet\\\",\\n    \\\"issue\\\":\\\"helmet(Grafana) CPU usage high\\\",\\n    \\\"site\\\":\\\"Teechip\\\",\\n    \\\"description\\\":\\\"helmet(Grafana) CPU usage high, please contact DevOps/SRE for investigation\\\",\\n    \\\"severity\\\":\\\"critical\\\",\\n    \\\"processing_state\\\":\\\"\\\",\\n \\\"server_owner\\\":null,\\n    \\\"service_owner\\\":\\\"SRE\\\"\\n}\\n\",\"AWSAccountId\":\"479335881964\",\"NewStateValue\":\"ALARM\",\"NewStateReason\":\"Threshold Crossed: 1 out of the last 1 datapoints [14.197670649254414 (19/02/21 09:10:00)] was less than or equal to the threshold (50.0) (minimum 1 datapoint for OK -> ALARM transition).\",\"StateChangeTime\":\"2021-02-19T09:20:42.922+0000\",\"Region\":\"US West (Oregon)\",\"AlarmArn\":\"arn:aws:cloudwatch:us-west-2:479335881964:alarm:[Critical] helmet(Grafana) CPU usage high\",\"OldStateValue\":\"INSUFFICIENT_DATA\",\"Trigger\":{\"MetricName\":\"CPUUtilization\",\"Namespace\":\"AWS/EC2\",\"StatisticType\":\"Statistic\",\"Statistic\":\"AVERAGE\",\"Unit\":null,\"Dimensions\":[{\"value\":\"i-05ff2b5c0b359df4a\",\"name\":\"InstanceId\"}],\"Period\":300,\"EvaluationPeriods\":1,\"ComparisonOperator\":\"LessThanOrEqualToThreshold\",\"Threshold\":50.0,\"TreatMissingData\":\"- TreatMissingData: missing\",\"EvaluateLowSampleCountPercentile\":\"\"}}",
+        "Timestamp": "2021-02-19T09:20:42.963Z",
+        "SignatureVersion": "1",
+        "Signature": "ayTzbjbwbx4wrhsZR/+KHRNZ84lW3OgJJuUWDl1yHnCsQXDQ3u+pAWtDO7y+Z/JPtbngeEyGuy/uoOH5HTtBNu5GG50Ux83/7kwx+0p7eNHCSif5y+tDoZSHF0cah/8+YSUBkcvcpgs8EawhbHqYYsVc0SleqmBdo9SFgwQRHkr5wCYetP/UYkMfWpg/4pMyb0Szq35TXe3oVZoUGk8KwdG15rJiV97U87TPYyjfVe8SrEllZO3ak7478u2ipB/3O7jr80BBFlpV+4q8It7jln43/jvhsffePetWPXnAwcuwQOZ4DhW4fkJSINxnnUy6cXaI8zEqAuwtT780iXwH/g==",
+        "SigningCertURL": "https://sns.us-west-2.amazonaws.com/SimpleNotificationService-010a507c1833636cd94bdb98bd93083a.pem",
+        "UnsubscribeURL": "https://sns.us-west-2.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-west-2:479335881964:CloudWatch-to-Slack:d09e674c-bf83-4ba5-b7b3-5af9650cb6d8"
+      }
+    }
+  ]
+}
